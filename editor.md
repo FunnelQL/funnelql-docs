@@ -4,6 +4,27 @@ To enable easy usage by non-technical users, a [CodeMirror](https://github.com/c
 
 ## Online Editor
 test
+
+<
+Form>
+<Form.Group>
+<label>Name</label>
+<Input name="name" placeholder="John" />
+</Form.Group>
+<Form.Group>
+<label>Email address</label>
+<Input name="email" placeholder="john@doe.com" />
+</Form.Group>
+<Form.Group>
+<label>Message</label>
+<Textarea placeholder="Some message" />
+</Form.Group>
+<Form.Actions>
+<Button type="submit" style="primary">Submit</Button>
+<Button type="cancel" style="secondary">Cancel</Button>
+</Form.Actions>
+</Form>
+
 <div><strong>test</strong>
 <textarea id="funnelql-editor" style="width:100%;height:250px;">xxx</textarea>
 </div>
