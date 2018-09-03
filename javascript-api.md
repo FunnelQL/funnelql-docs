@@ -81,4 +81,5 @@ The library can provide detailed debug information including Performance API tim
 ```javascript
 $FQL.debug(true);
 ```
+
 ![FunnelQL Browser Console Debug Info](./assets/debug-console.png)
