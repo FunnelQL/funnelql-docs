@@ -2,7 +2,7 @@
 
 Funnel Query Language is a language designed to perform queries on the chronological context of activity of a website visitor for the purpose of advanced **Conversion Funnel Optimization**.
 
-A [Javascript API]() enables to write a funnel data-set and provides several methods to query the data-set using Funnel Query Language.
+A [Javascript API](javascript-api.md) enables to write a funnel data-set and provides several methods to query the data-set using Funnel Query Language.
 
 Funnel Query Language converts to JSON before it is used to query the funnel data-set. The language is designed for easy usage by non-technical users. It is possible to use JSON instead of Funnel Query Language to save additional parsing time in a production environment.
 

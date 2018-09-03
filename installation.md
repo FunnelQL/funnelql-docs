@@ -2,7 +2,7 @@
 
 You can install the FunnelQL Javascript library using NPM or by downloading the files manually from [Github](https://github.com/FunnelQL/funnelql/) or [Gitlab](https://gitlab.com/FunnelQL/funnelql).
 
-## NPM
+## Node Package Manager
 
 You can install the Javascript library in your project using the following NPM command.
 
@@ -41,5 +41,5 @@ To load the web worker from a custom location, set `window['funnelql-worker']` w
 <script src="/funnelql+inline-worker.js" async></script>
 ```
 
-Once the FunnelQL library is loaded you can access the Javascript API via the global variable `$FQL`.
+Once the FunnelQL library is loaded you can access the Javascript API via the global variable `$FQL` (see [Javascript API](javascript-api.md))
 
