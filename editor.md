@@ -41,7 +41,7 @@ It is not required to install CodeMirror when using the combination package.
 
 ### FunnelQL editor extension only
 
-If CodeMirror is already present on a page you can include just the FunnelQL editor mode and lint extension.
+If CodeMirror is already present on a page you can include just the FunnelQL extension-only files.
 
 ```markup
 <!-- Optional: from CodeMirror package -->
