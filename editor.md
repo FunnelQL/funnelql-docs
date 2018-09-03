@@ -4,8 +4,8 @@ To enable easy usage by non-technical users, a [CodeMirror](https://github.com/c
 
 ## Online Editor
 test
-<div>
-<textarea id="funnelql-editor" style="width:100%;height:250px;"></textarea>
+<div><strong>test</strong>
+<textarea id="funnelql-editor" style="width:100%;height:250px;">xxx</textarea>
 </div>
 
 ## Installation
