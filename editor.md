@@ -5,8 +5,7 @@ To enable easy usage by non-technical users, a [CodeMirror](https://github.com/c
 ## Online Editor
 test
 
-<
-Form>
+<Form>
 <Form.Group>
 <label>Name</label>
 <Input name="name" placeholder="John" />
@@ -25,7 +24,7 @@ Form>
 </Form.Actions>
 </Form>
 
-<div><strong>test</strong>
+<div class="funnelql-editor"><strong>test2</strong>
 <textarea id="funnelql-editor" style="width:100%;height:250px;">xxx</textarea>
 </div>
 
