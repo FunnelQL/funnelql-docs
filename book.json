@@ -3,7 +3,7 @@
     "pluginsConfig": {
         "custom-js-css": {
             "js": [
-                "./assets/funnelql+inline-worker.js"
+                "./assets/funnelql+inline-worker.js",
                 "./assets/funnelql-editor+codemirror.js"
             ],
             "css": [
