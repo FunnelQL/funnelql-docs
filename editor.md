@@ -71,7 +71,7 @@ var fql_editor = FunnelQLEditor('funnelql_editor', {
 });
 ```
 
-To make sure that the FunnelQL library is loaded before the editor is instantiated, use the onload callback provided by the Javascript library:
+To make sure that the FunnelQL library and database are loaded before the editor is instantiated, use the onload callback provided by the Javascript library:
 
 ```javascript
 $FQL.on('load')
