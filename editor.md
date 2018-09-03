@@ -2,10 +2,11 @@
 
 To enable easy usage by non-technical users, a [CodeMirror](https://github.com/codemirror/CodeMirror) based WYSIWYG editor with lint \(error reporting\) can be used to write Funnel Query Language. The editor is easy to add to your project using NPM.
 
-## Online Editor
-test 2
+![FunnelQL Editor](./assets/editor.png)
 
-!INCLUDE "editor.html"
+## Online Editor
+
+An online version of the editor is available om [https://funnelql.com/](https://funnelql.com/).
 
 ## Installation
 
@@ -89,5 +90,3 @@ The `FunnelQLEditor` constructor returns a CodeMirror editor object enhanced wit
 
 For information about the CodeMirror API, see [https://codemirror.net/doc/manual.html\#api](https://codemirror.net/doc/manual.html#api)
 
-
-![FunnelQL Editor](./assets/editor.png)
