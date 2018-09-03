@@ -1,0 +1,14 @@
+{
+    "plugins": ["custom-js-css"],
+    "pluginsConfig": {
+        "custom-js-css": {
+            "js": [
+                "./assets/funnelql+inline-worker.js"
+                "./assets/funnelql-editor+codemirror.js"
+            ],
+            "css": [
+                "./assets/funnelql-editor+codemirror.css"
+            ]
+        }
+    }
+}
