@@ -2,11 +2,7 @@
 
 [CodeMirror](https://github.com/codemirror/CodeMirror) based WYSIWYG editor with lint \(error reporting\) for Funnel Query Language.
 
-<<<<<<< HEAD
 ![FunnelQL Editor](./images/editor.png)
-=======
-![](.gitbook/assets/editor.png)
->>>>>>> 8a4fe9bd45a65673e3048d0747fa51ad68a8e3a8
 
 ## Installation
 
