@@ -4,7 +4,7 @@ To enable easy usage by non-technical users, a [CodeMirror](https://github.com/c
 
 ## Online Editor
 
-{% raw %}<textarea id="funnelql-editor" style="width:100%;height:250px;"></textarea>{% endraw %}
+<textarea id="funnelql-editor" style="width:100%;height:250px;"></textarea>
 
 ## Installation
 
