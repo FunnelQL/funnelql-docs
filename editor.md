@@ -20,17 +20,17 @@ npm install funnelql-editor
 
 The FunnelQL editor library can be included like any regular javascript file, is safe to include in concatenation and can be loaded asynchronously.
 
-The editor consists of a `mode` and `lint` extension of [CodeMirror](https://github.com/codemirror/CodeMirror) with a custom WYSIWYG toolbar and application frame.
+The editor consists of a `mode` and `lint` extension for [CodeMirror](https://github.com/codemirror/CodeMirror) with a custom WYSIWYG toolbar and application frame.
 
-The editor provides a CodeMirror extension `funnelql-editor.js` and a combination package that includes CodeMirror `funnelql-editor+codemirror.js`.
+The editor provides a combination package that includes CodeMirror `funnelql-editor+codemirror.js` and a extension-only file `funnelql-editor.js`.
 
-When using the extension you need to manually load `lib/codemirror.js` and `addon/lint/lint.js` from the CodeMirror package that can be installed using NPM:
+When using the extension-only file you need to manually load `lib/codemirror.js` and `addon/lint/lint.js` from the CodeMirror package that can be installed using NPM:
 
 ```bash
 npm install codemirror
 ```
 
-It is not required to install codemirror when using the combination package.
+It is not required to install CodeMirror when using the combination package.
 
 ### FunnelQL editor + codemirror combined
 
