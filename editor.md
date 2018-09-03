@@ -8,7 +8,7 @@ The editor is designed to make it easy to write Funnel Queries for non-technical
 
 ## Online Editor
 
-An online version of the editor is available om [https://funnelql.com/](https://funnelql.com/).
+An online demo of the editor is available om [https://funnelql.com/](https://funnelql.com/).
 
 ## Installation
 
