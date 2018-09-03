@@ -1,5 +1,5 @@
 {
-    "plugins": ["custom-js-css"],
+    "plugins": ["custom-js-css", "include-html"],
     "pluginsConfig": {
         "custom-js-css": {
             "js": [
