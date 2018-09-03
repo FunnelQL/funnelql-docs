@@ -65,6 +65,17 @@ var fql_editor = FunnelQLEditor('funnelql_editor', {
 });
 ```
 
+To make sure that the FunnelQL library is loaded before the editor is instantiated, use the onload callback provided by the Javascript library:
+
+```javascript
+$FQL.on('load')
+  .then(function() {
+
+	/* load editor */
+
+  });
+```
+
 #### FunnelQL CodeMirror API extension
 
 The `FunnelQLEditor` constructor returns a CodeMirror editor object enhanced with additional API methods.
