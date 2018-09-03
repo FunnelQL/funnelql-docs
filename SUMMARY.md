@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Installation](installation.md)
-* [Funnel Query Language](funnelql.md)
+* [Language reference](funnelql.md)
 * [JavaScript API](javascript-api.md)
 * [WYSIWYG Editor](editor.md)
 * Guides
