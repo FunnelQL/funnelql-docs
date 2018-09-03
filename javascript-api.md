@@ -1,7 +1,6 @@
-# FunnelQL Javascript API
+# JavaScript API
 
-Start by installing the FunnelQL Javascript library (see [Installation](#install)).
-
+Start by installing the FunnelQL Javascript library \(see [Installation](javascript-api.md#install)\).
 
 ## Loading the FunnelQL database
 
@@ -15,9 +14,9 @@ $FQL.init({
 
 ### Database Configuration Options
 
-| Option                         | Description     | Default |
-|--------------------------------|-----------------|---------|
-| `expire`                | Database expiration.  | `session` (could be `never` or a time in seconds) |
+| Option | Description | Default |
+| :--- | :--- | :--- |
+| `expire` | Database expiration. | `session` \(could be `never` or a time in seconds\) |
 
 The FunnelQL API is chainable and provides a onload callback.
 

@@ -14,11 +14,11 @@ You can then use the FunnelQL library with the file `dist/funnelql.js` or `dist/
 
 ## Including the library
 
-The Javascript library can be included like any regular javascript file, is safe to include in concatenation and can be loaded asynchronously. 
+The Javascript library can be included like any regular javascript file, is safe to include in concatenation and can be loaded asynchronously.
 
-The library is completely written in [Vanilla JS](http://vanilla-js.com/) (original Javascript) and does not depend on other projects.
+The library is completely written in [Vanilla JS](http://vanilla-js.com/) \(original Javascript\) and does not depend on other projects.
 
-The library requires a Web Worker that can be loaded in two ways: 
+The library requires a Web Worker that can be loaded in two ways:
 
 1. as a inline Javascript [blob](https://developer.mozilla.org/en-US/docs/Web/API/Blob) 
 2. as a separate worker file `funnelql-worker.js`. 
@@ -27,19 +27,19 @@ The library requires a Web Worker that can be loaded in two ways:
 
 You can directly include the FunnelQL library in the HTML document.
 
-```html
+```markup
 <script src="/funnelql.js" async></script>
 ```
 
-The script will automatically load `/funnelql-worker.js` on the basis of the path of `funnelql.js`. 
+The script will automatically load `/funnelql-worker.js` on the basis of the path of `funnelql.js`.
 
 To load the web worker from a custom location, set `window['funnelql-worker']` with the path to the web worker file.
 
 ### Option 2: library with a inline web worker blob
 
-```html
+```markup
 <script src="/funnelql+inline-worker.js" async></script>
 ```
 
-Once the FunnelQL library is loaded you can access the Javascript API via the global variable `$FQL` (see [Javascript API](javascript-api.md))
+Once the FunnelQL library is loaded you can access the Javascript API via the global variable `$FQL` \(see [Javascript API](javascript-api.md)\)
 

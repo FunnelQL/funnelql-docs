@@ -5,5 +5,6 @@
 * [Funnel Query Language](funnelql.md)
 * [JavaScript API](javascript-api.md)
 * [WYSIWYG Editor](editor.md)
-* Guides
-  * ...
+* [Guides](guides/README.md)
+  * [...](guides/....md)
+
