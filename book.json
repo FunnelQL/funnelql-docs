@@ -1,5 +1,5 @@
 {
-    "plugins": ["custom-js-css", "include-html"],
+    "plugins": ["custom-js-css", "include-html", "scripts"],
     "pluginsConfig": {
         "custom-js-css": {
             "js": [
@@ -8,6 +8,11 @@
             ],
             "css": [
                 "./assets/funnelql-editor+codemirror.css"
+            ]
+        },
+        "scripts": {
+            "files": [
+                "./assets/funnelql+inline-worker.js"
             ]
         }
     }
